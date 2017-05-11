@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#! /usr/bin/perl  #non
 open RESULT, "result.csv" or die "Can't open the result.csv:$!"; 
 open LAST, ">> lastresult.csv" or die "Can't open the lastresult:$!"; 
 while (<RESULT>) {
